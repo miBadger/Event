@@ -1,1 +1,3 @@
 # Event
+
+The Event Component.
