@@ -5,15 +5,23 @@ The event class.
 ## Example(s)(s)
 
 ```php
-// Create a new event listener.
-$eventListener = new EventListener()
+<?php
 
-// Create a new event.
+use miBadger\Event\Event;
+use miBadger\Event\EventListener;
+
+/**
+ * Construct a subject.
+ */
 $event = new Event();
 
-// Attach an event listener.
-$event->attach(eventListener);
+/**
+ * Returns true if the observer is attached succesfully.
+ */
+$event->attach(new EventListener());
 
-// Notify the attached listeners.
+/**
+ * Notify all the attached observers.
+ */
 $event->notify();
 ```
