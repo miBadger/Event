@@ -2,18 +2,30 @@
 
 The event class.
 
-## Example(s)(s)
+## Example(s)
 
 ```php
-// Create a new event listener.
-$eventListener = new EventListener()
+<?php
 
-// Create a new event.
-$event = new Event();
+use miBadger\Event\Event;
 
-// Attach an event listener.
-$event->attach(eventListener);
+/**
+ * Returns true if the observer is attached to the subject.
+ */
+$event->isAttached(ObserverInterface $observer);
 
-// Notify the attached listeners.
-$event->notify();
+/**
+ * Returns true if the observer is attached successfully.
+ */
+$event->attach(ObserverInterface $observer);
+
+/**
+* Returns true if the observer is detached successfully.
+ */
+$event->detach(ObserverInterface $observer);
+
+/**
+ * Notify all the attached observers.
+ */
+$event->notify($arguments = null);
 ```
