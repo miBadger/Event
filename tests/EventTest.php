@@ -10,12 +10,14 @@
 
 namespace miBadger\Event;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * The event test.
  *
  * @since 1.0.0
  */
-class EventTest extends \PHPUnit_Framework_TestCase
+class EventTest extends TestCase
 {
 	public function testEvent()
 	{
