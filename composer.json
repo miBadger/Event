@@ -17,11 +17,11 @@
 		}
 	],
 	"require": {
-		"php": ">=7.0",
-		"mibadger/observer": "1.*"
+		"php": "^7.0",
+		"mibadger/observer": "^1.0"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "6.*"
+		"phpunit/phpunit": "^6.5"
 	},
 	"autoload": {
 		"psr-4": {
