@@ -3,6 +3,7 @@
 [![Build Status](https://scrutinizer-ci.com/g/miBadger/miBadger.Event/badges/build.png?b=master)](https://scrutinizer-ci.com/g/miBadger/miBadger.Event/build-status/master)
 [![Code Coverage](https://scrutinizer-ci.com/g/miBadger/miBadger.Event/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/miBadger/miBadger.Event/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/miBadger/miBadger.Event/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/miBadger/miBadger.Event/?branch=master)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/45cf9a12-db7b-47b1-a272-94e74d8bfc6c/mini.png)](https://insight.sensiolabs.com/projects/45cf9a12-db7b-47b1-a272-94e74d8bfc6c)
 
 The Event Component.
 
